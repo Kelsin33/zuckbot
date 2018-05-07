@@ -41,7 +41,7 @@ $(document).ready(function(){
       continue;
     var vid = document.getElementById(patterns[i][2]);
     vid.onended = function() {
-        vid.style.display = "none";
+        stopVids(patterns);
     };
   }
     

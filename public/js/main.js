@@ -2,11 +2,12 @@
 
 // Patterns defined using the RegEx syntax JS uses (a subset of PCRE)
 var patterns = [
-  [/.*personal information.*/, 'personal info', 'vid-info'],
+  [/.*personal information.*/, 'personal info', 'vid-working'],
   [/.*data*/, 'data', 'vid-info'],
-  [/.*(risk)|(threat).*security.*/, 'security threat', 'vid-info'],
+  [/.*cambridge*/, 'cambridge', 'vid-average'],
+  [/.*(risk)|(threat).*security.*/, 'security threat', 'vid-working'],
   [/.*more.*information.*/, 'more info', 'vid-info'],
-  [/test/, 'test','vid-no']
+  [/test/, 'test','vid-average']
 ]
 
 // stop, reset, and hide all vids defined in the patterns

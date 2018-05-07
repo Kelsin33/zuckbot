@@ -6,7 +6,7 @@ var patterns = [
   [/.*data*/, 'data', 'vid-info'],
   [/.*(risk)|(threat).*security.*/, 'security threat', 'vid-info'],
   [/.*more.*information.*/, 'more info', 'vid-info'],
-  [/test/, 'test', 'test', 'vid-no']
+  [/test/, 'test','vid-no']
 ]
 
 // stop, reset, and hide all vids defined in the patterns
